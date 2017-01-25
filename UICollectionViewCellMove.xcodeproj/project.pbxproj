@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70406F11DF8F4D400FE01E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B70406F01DF8F4D400FE01E7 /* main.m */; };
+		B70406F41DF8F4D400FE01E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B70406F31DF8F4D400FE01E7 /* AppDelegate.m */; };
+		B70406F71DF8F4D400FE01E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B70406F61DF8F4D400FE01E7 /* ViewController.m */; };
+		B70406FA1DF8F4D400FE01E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70406F81DF8F4D400FE01E7 /* Main.storyboard */; };
+		B70406FC1DF8F4D400FE01E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70406FB1DF8F4D400FE01E7 /* Assets.xcassets */; };
+		B70406FF1DF8F4D400FE01E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70406FD1DF8F4D400FE01E7 /* LaunchScreen.storyboard */; };
+		B704070A1DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407091DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.m */; };
+		B70407151DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407141DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.m */; };
+		B704072B1DF8FB9500FE01E7 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = B704072A1DF8FB9500FE01E7 /* UIView+Frame.m */; };
+		B70407311DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407301DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.m */; };
+		B70407341DF8FF2700FE01E7 /* WBAreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407331DF8FF2700FE01E7 /* WBAreaModel.m */; };
+		B70407381DF9004600FE01E7 /* WBAreaContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407371DF9004600FE01E7 /* WBAreaContentManager.m */; };
+		B704073C1DF93C1800FE01E7 /* WBAreaDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B704073A1DF93C1800FE01E7 /* WBAreaDetailVC.m */; };
+		B704073D1DF93C1800FE01E7 /* WBAreaDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B704073B1DF93C1800FE01E7 /* WBAreaDetailVC.xib */; };
+		B70407401DF9476B00FE01E7 /* WBAreaDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B704073F1DF9476B00FE01E7 /* WBAreaDetailModel.m */; };
+		B70407431DF9477B00FE01E7 /* WBDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407421DF9477B00FE01E7 /* WBDeviceModel.m */; };
+		B70407461DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407451DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.m */; };
+		B70407491DF9485700FE01E7 /* WBDeviceCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B70407481DF9485700FE01E7 /* WBDeviceCollectionViewCell.m */; };
+		B704074C1DF948C300FE01E7 /* WBDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B704074B1DF948C300FE01E7 /* WBDeviceInfo.m */; };
+		B704074F1DF9490C00FE01E7 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B704074E1DF9490C00FE01E7 /* UIImage+Extensions.m */; };
+		B765F2851DFA47EC00808594 /* DKProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B765F2841DFA47EC00808594 /* DKProgressHUD.m */; };
+		B765F2891DFA522200808594 /* UICollectionView+TLCellRearrange.m in Sources */ = {isa = PBXBuildFile; fileRef = B765F2881DFA522200808594 /* UICollectionView+TLCellRearrange.m */; };
+		BF6E8B3E3BCCEDADD964C72F /* Pods_UICollectionViewCellMove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50659DA588DCAD370815B08E /* Pods_UICollectionViewCellMove.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B70407061DF8F4D400FE01E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70406E41DF8F4D400FE01E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70406EB1DF8F4D400FE01E7;
+			remoteInfo = UICollectionViewCellMove;
+		};
+		B70407111DF8F4D400FE01E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B70406E41DF8F4D400FE01E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70406EB1DF8F4D400FE01E7;
+			remoteInfo = UICollectionViewCellMove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50659DA588DCAD370815B08E /* Pods_UICollectionViewCellMove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UICollectionViewCellMove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5145127A9239097159223B09 /* Pods-UICollectionViewCellMove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewCellMove.release.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewCellMove/Pods-UICollectionViewCellMove.release.xcconfig"; sourceTree = "<group>"; };
+		B70406EC1DF8F4D400FE01E7 /* UICollectionViewCellMove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewCellMove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70406F01DF8F4D400FE01E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B70406F21DF8F4D400FE01E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B70406F31DF8F4D400FE01E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B70406F51DF8F4D400FE01E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B70406F61DF8F4D400FE01E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B70406F91DF8F4D400FE01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B70406FB1DF8F4D400FE01E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B70406FE1DF8F4D400FE01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B70407001DF8F4D400FE01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70407051DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewCellMoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70407091DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCellMoveTests.m; sourceTree = "<group>"; };
+		B704070B1DF8F4D400FE01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70407101DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewCellMoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70407141DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCellMoveUITests.m; sourceTree = "<group>"; };
+		B70407161DF8F4D400FE01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B70407221DF8F60200FE01E7 /* UICollectionViewCellMove-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCellMove-Prefix.pch"; sourceTree = "<group>"; };
+		B70407291DF8FB9500FE01E7 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		B704072A1DF8FB9500FE01E7 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		B704072F1DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAreaCollectionViewCell.h; sourceTree = "<group>"; };
+		B70407301DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAreaCollectionViewCell.m; sourceTree = "<group>"; };
+		B70407321DF8FF2700FE01E7 /* WBAreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAreaModel.h; sourceTree = "<group>"; };
+		B70407331DF8FF2700FE01E7 /* WBAreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAreaModel.m; sourceTree = "<group>"; };
+		B70407361DF9004600FE01E7 /* WBAreaContentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAreaContentManager.h; sourceTree = "<group>"; };
+		B70407371DF9004600FE01E7 /* WBAreaContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAreaContentManager.m; sourceTree = "<group>"; };
+		B70407391DF93C1800FE01E7 /* WBAreaDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAreaDetailVC.h; sourceTree = "<group>"; };
+		B704073A1DF93C1800FE01E7 /* WBAreaDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAreaDetailVC.m; sourceTree = "<group>"; };
+		B704073B1DF93C1800FE01E7 /* WBAreaDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WBAreaDetailVC.xib; sourceTree = "<group>"; };
+		B704073E1DF9476B00FE01E7 /* WBAreaDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAreaDetailModel.h; sourceTree = "<group>"; };
+		B704073F1DF9476B00FE01E7 /* WBAreaDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAreaDetailModel.m; sourceTree = "<group>"; };
+		B70407411DF9477B00FE01E7 /* WBDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDeviceModel.h; sourceTree = "<group>"; };
+		B70407421DF9477B00FE01E7 /* WBDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDeviceModel.m; sourceTree = "<group>"; };
+		B70407441DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBAreaDetaliCollectionViewCell.h; sourceTree = "<group>"; };
+		B70407451DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBAreaDetaliCollectionViewCell.m; sourceTree = "<group>"; };
+		B70407471DF9485700FE01E7 /* WBDeviceCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDeviceCollectionViewCell.h; sourceTree = "<group>"; };
+		B70407481DF9485700FE01E7 /* WBDeviceCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDeviceCollectionViewCell.m; sourceTree = "<group>"; };
+		B704074A1DF948C300FE01E7 /* WBDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBDeviceInfo.h; sourceTree = "<group>"; };
+		B704074B1DF948C300FE01E7 /* WBDeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBDeviceInfo.m; sourceTree = "<group>"; };
+		B704074D1DF9490C00FE01E7 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		B704074E1DF9490C00FE01E7 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		B765F2831DFA47EC00808594 /* DKProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKProgressHUD.h; sourceTree = "<group>"; };
+		B765F2841DFA47EC00808594 /* DKProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKProgressHUD.m; sourceTree = "<group>"; };
+		B765F2871DFA522200808594 /* UICollectionView+TLCellRearrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+TLCellRearrange.h"; sourceTree = "<group>"; };
+		B765F2881DFA522200808594 /* UICollectionView+TLCellRearrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+TLCellRearrange.m"; sourceTree = "<group>"; };
+		D87230EA1224979003D2B8C1 /* Pods-UICollectionViewCellMove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UICollectionViewCellMove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UICollectionViewCellMove/Pods-UICollectionViewCellMove.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B70406E91DF8F4D400FE01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6E8B3E3BCCEDADD964C72F /* Pods_UICollectionViewCellMove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70407021DF8F4D400FE01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B704070D1DF8F4D400FE01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0EE087904A5090ED404B89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D87230EA1224979003D2B8C1 /* Pods-UICollectionViewCellMove.debug.xcconfig */,
+				5145127A9239097159223B09 /* Pods-UICollectionViewCellMove.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B70406E31DF8F4D400FE01E7 = {
+			isa = PBXGroup;
+			children = (
+				B70407271DF8FB9500FE01E7 /* Common */,
+				B70406EE1DF8F4D400FE01E7 /* UICollectionViewCellMove */,
+				B70407081DF8F4D400FE01E7 /* UICollectionViewCellMoveTests */,
+				B70407131DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests */,
+				B70406ED1DF8F4D400FE01E7 /* Products */,
+				0A0EE087904A5090ED404B89 /* Pods */,
+				C1980F1742A637EC8945FBFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B70406ED1DF8F4D400FE01E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70406EC1DF8F4D400FE01E7 /* UICollectionViewCellMove.app */,
+				B70407051DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.xctest */,
+				B70407101DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70406EE1DF8F4D400FE01E7 /* UICollectionViewCellMove */ = {
+			isa = PBXGroup;
+			children = (
+				B704072D1DF8FEB200FE01E7 /* Controller */,
+				B704072C1DF8FEB200FE01E7 /* Cell */,
+				B704072E1DF8FEE700FE01E7 /* Model */,
+				B70407351DF9002500FE01E7 /* DataManager */,
+				B70406F21DF8F4D400FE01E7 /* AppDelegate.h */,
+				B70406F31DF8F4D400FE01E7 /* AppDelegate.m */,
+				B70406F51DF8F4D400FE01E7 /* ViewController.h */,
+				B70406F61DF8F4D400FE01E7 /* ViewController.m */,
+				B704074A1DF948C300FE01E7 /* WBDeviceInfo.h */,
+				B704074B1DF948C300FE01E7 /* WBDeviceInfo.m */,
+				B70406F81DF8F4D400FE01E7 /* Main.storyboard */,
+				B70406FB1DF8F4D400FE01E7 /* Assets.xcassets */,
+				B70406FD1DF8F4D400FE01E7 /* LaunchScreen.storyboard */,
+				B70407001DF8F4D400FE01E7 /* Info.plist */,
+				B70406EF1DF8F4D400FE01E7 /* Supporting Files */,
+			);
+			path = UICollectionViewCellMove;
+			sourceTree = "<group>";
+		};
+		B70406EF1DF8F4D400FE01E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B70406F01DF8F4D400FE01E7 /* main.m */,
+				B70407221DF8F60200FE01E7 /* UICollectionViewCellMove-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B70407081DF8F4D400FE01E7 /* UICollectionViewCellMoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				B70407091DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.m */,
+				B704070B1DF8F4D400FE01E7 /* Info.plist */,
+			);
+			path = UICollectionViewCellMoveTests;
+			sourceTree = "<group>";
+		};
+		B70407131DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B70407141DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.m */,
+				B70407161DF8F4D400FE01E7 /* Info.plist */,
+			);
+			path = UICollectionViewCellMoveUITests;
+			sourceTree = "<group>";
+		};
+		B70407271DF8FB9500FE01E7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B765F2861DFA502600808594 /* UICollectionView */,
+				B70407281DF8FB9500FE01E7 /* UIView */,
+				B765F2821DFA47EC00808594 /* ProgressHUD */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B70407281DF8FB9500FE01E7 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B70407291DF8FB9500FE01E7 /* UIView+Frame.h */,
+				B704072A1DF8FB9500FE01E7 /* UIView+Frame.m */,
+				B704074D1DF9490C00FE01E7 /* UIImage+Extensions.h */,
+				B704074E1DF9490C00FE01E7 /* UIImage+Extensions.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B704072C1DF8FEB200FE01E7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B704072F1DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.h */,
+				B70407301DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.m */,
+				B70407441DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.h */,
+				B70407451DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.m */,
+				B70407471DF9485700FE01E7 /* WBDeviceCollectionViewCell.h */,
+				B70407481DF9485700FE01E7 /* WBDeviceCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B704072D1DF8FEB200FE01E7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B70407391DF93C1800FE01E7 /* WBAreaDetailVC.h */,
+				B704073A1DF93C1800FE01E7 /* WBAreaDetailVC.m */,
+				B704073B1DF93C1800FE01E7 /* WBAreaDetailVC.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B704072E1DF8FEE700FE01E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B70407321DF8FF2700FE01E7 /* WBAreaModel.h */,
+				B70407331DF8FF2700FE01E7 /* WBAreaModel.m */,
+				B704073E1DF9476B00FE01E7 /* WBAreaDetailModel.h */,
+				B704073F1DF9476B00FE01E7 /* WBAreaDetailModel.m */,
+				B70407411DF9477B00FE01E7 /* WBDeviceModel.h */,
+				B70407421DF9477B00FE01E7 /* WBDeviceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B70407351DF9002500FE01E7 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				B70407361DF9004600FE01E7 /* WBAreaContentManager.h */,
+				B70407371DF9004600FE01E7 /* WBAreaContentManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		B765F2821DFA47EC00808594 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B765F2831DFA47EC00808594 /* DKProgressHUD.h */,
+				B765F2841DFA47EC00808594 /* DKProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		B765F2861DFA502600808594 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B765F2871DFA522200808594 /* UICollectionView+TLCellRearrange.h */,
+				B765F2881DFA522200808594 /* UICollectionView+TLCellRearrange.m */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		C1980F1742A637EC8945FBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50659DA588DCAD370815B08E /* Pods_UICollectionViewCellMove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B70406EB1DF8F4D400FE01E7 /* UICollectionViewCellMove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70407191DF8F4D400FE01E7 /* Build configuration list for PBXNativeTarget "UICollectionViewCellMove" */;
+			buildPhases = (
+				6BE58C4E3847A9A5438CCB23 /* [CP] Check Pods Manifest.lock */,
+				B70406E81DF8F4D400FE01E7 /* Sources */,
+				B70406E91DF8F4D400FE01E7 /* Frameworks */,
+				B70406EA1DF8F4D400FE01E7 /* Resources */,
+				0AECBAB7E05F384C271D38E1 /* [CP] Embed Pods Frameworks */,
+				5F374FD779A25846D31E71E0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICollectionViewCellMove;
+			productName = UICollectionViewCellMove;
+			productReference = B70406EC1DF8F4D400FE01E7 /* UICollectionViewCellMove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B70407041DF8F4D400FE01E7 /* UICollectionViewCellMoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B704071C1DF8F4D400FE01E7 /* Build configuration list for PBXNativeTarget "UICollectionViewCellMoveTests" */;
+			buildPhases = (
+				B70407011DF8F4D400FE01E7 /* Sources */,
+				B70407021DF8F4D400FE01E7 /* Frameworks */,
+				B70407031DF8F4D400FE01E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B70407071DF8F4D400FE01E7 /* PBXTargetDependency */,
+			);
+			name = UICollectionViewCellMoveTests;
+			productName = UICollectionViewCellMoveTests;
+			productReference = B70407051DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B704070F1DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B704071F1DF8F4D400FE01E7 /* Build configuration list for PBXNativeTarget "UICollectionViewCellMoveUITests" */;
+			buildPhases = (
+				B704070C1DF8F4D400FE01E7 /* Sources */,
+				B704070D1DF8F4D400FE01E7 /* Frameworks */,
+				B704070E1DF8F4D400FE01E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B70407121DF8F4D400FE01E7 /* PBXTargetDependency */,
+			);
+			name = UICollectionViewCellMoveUITests;
+			productName = UICollectionViewCellMoveUITests;
+			productReference = B70407101DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B70406E41DF8F4D400FE01E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "http://blog.csdn.net/yutianlong9306/";
+				TargetAttributes = {
+					B70406EB1DF8F4D400FE01E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZW3ZXZ4X72;
+						ProvisioningStyle = Automatic;
+					};
+					B70407041DF8F4D400FE01E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZW3ZXZ4X72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B70406EB1DF8F4D400FE01E7;
+					};
+					B704070F1DF8F4D400FE01E7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZW3ZXZ4X72;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B70406EB1DF8F4D400FE01E7;
+					};
+				};
+			};
+			buildConfigurationList = B70406E71DF8F4D400FE01E7 /* Build configuration list for PBXProject "UICollectionViewCellMove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B70406E31DF8F4D400FE01E7;
+			productRefGroup = B70406ED1DF8F4D400FE01E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B70406EB1DF8F4D400FE01E7 /* UICollectionViewCellMove */,
+				B70407041DF8F4D400FE01E7 /* UICollectionViewCellMoveTests */,
+				B704070F1DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B70406EA1DF8F4D400FE01E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70406FF1DF8F4D400FE01E7 /* LaunchScreen.storyboard in Resources */,
+				B704073D1DF93C1800FE01E7 /* WBAreaDetailVC.xib in Resources */,
+				B70406FC1DF8F4D400FE01E7 /* Assets.xcassets in Resources */,
+				B70406FA1DF8F4D400FE01E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70407031DF8F4D400FE01E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B704070E1DF8F4D400FE01E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AECBAB7E05F384C271D38E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionViewCellMove/Pods-UICollectionViewCellMove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F374FD779A25846D31E71E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UICollectionViewCellMove/Pods-UICollectionViewCellMove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BE58C4E3847A9A5438CCB23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B70406E81DF8F4D400FE01E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B704072B1DF8FB9500FE01E7 /* UIView+Frame.m in Sources */,
+				B704073C1DF93C1800FE01E7 /* WBAreaDetailVC.m in Sources */,
+				B70407401DF9476B00FE01E7 /* WBAreaDetailModel.m in Sources */,
+				B70407491DF9485700FE01E7 /* WBDeviceCollectionViewCell.m in Sources */,
+				B765F2891DFA522200808594 /* UICollectionView+TLCellRearrange.m in Sources */,
+				B704074C1DF948C300FE01E7 /* WBDeviceInfo.m in Sources */,
+				B70407381DF9004600FE01E7 /* WBAreaContentManager.m in Sources */,
+				B70407431DF9477B00FE01E7 /* WBDeviceModel.m in Sources */,
+				B765F2851DFA47EC00808594 /* DKProgressHUD.m in Sources */,
+				B70407341DF8FF2700FE01E7 /* WBAreaModel.m in Sources */,
+				B70407461DF947EB00FE01E7 /* WBAreaDetaliCollectionViewCell.m in Sources */,
+				B704074F1DF9490C00FE01E7 /* UIImage+Extensions.m in Sources */,
+				B70407311DF8FEFF00FE01E7 /* WBAreaCollectionViewCell.m in Sources */,
+				B70406F71DF8F4D400FE01E7 /* ViewController.m in Sources */,
+				B70406F41DF8F4D400FE01E7 /* AppDelegate.m in Sources */,
+				B70406F11DF8F4D400FE01E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B70407011DF8F4D400FE01E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B704070A1DF8F4D400FE01E7 /* UICollectionViewCellMoveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B704070C1DF8F4D400FE01E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70407151DF8F4D400FE01E7 /* UICollectionViewCellMoveUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B70407071DF8F4D400FE01E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B70406EB1DF8F4D400FE01E7 /* UICollectionViewCellMove */;
+			targetProxy = B70407061DF8F4D400FE01E7 /* PBXContainerItemProxy */;
+		};
+		B70407121DF8F4D400FE01E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B70406EB1DF8F4D400FE01E7 /* UICollectionViewCellMove */;
+			targetProxy = B70407111DF8F4D400FE01E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B70406F81DF8F4D400FE01E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70406F91DF8F4D400FE01E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B70406FD1DF8F4D400FE01E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70406FE1DF8F4D400FE01E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B70407171DF8F4D400FE01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B70407181DF8F4D400FE01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B704071A1DF8F4D400FE01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87230EA1224979003D2B8C1 /* Pods-UICollectionViewCellMove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZW3ZXZ4X72;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICollectionViewCellMove/UICollectionViewCellMove-Prefix.pch";
+				INFOPLIST_FILE = UICollectionViewCellMove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.UICollectionViewCellMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B704071B1DF8F4D400FE01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5145127A9239097159223B09 /* Pods-UICollectionViewCellMove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZW3ZXZ4X72;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UICollectionViewCellMove/UICollectionViewCellMove-Prefix.pch";
+				INFOPLIST_FILE = UICollectionViewCellMove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.UICollectionViewCellMove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B704071D1DF8F4D400FE01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZW3ZXZ4X72;
+				INFOPLIST_FILE = UICollectionViewCellMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.UICollectionViewCellMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionViewCellMove.app/UICollectionViewCellMove";
+			};
+			name = Debug;
+		};
+		B704071E1DF8F4D400FE01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZW3ZXZ4X72;
+				INFOPLIST_FILE = UICollectionViewCellMoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.UICollectionViewCellMoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UICollectionViewCellMove.app/UICollectionViewCellMove";
+			};
+			name = Release;
+		};
+		B70407201DF8F4D400FE01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZW3ZXZ4X72;
+				INFOPLIST_FILE = UICollectionViewCellMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.UICollectionViewCellMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UICollectionViewCellMove;
+			};
+			name = Debug;
+		};
+		B70407211DF8F4D400FE01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZW3ZXZ4X72;
+				INFOPLIST_FILE = UICollectionViewCellMoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = personal.UICollectionViewCellMoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UICollectionViewCellMove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B70406E71DF8F4D400FE01E7 /* Build configuration list for PBXProject "UICollectionViewCellMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70407171DF8F4D400FE01E7 /* Debug */,
+				B70407181DF8F4D400FE01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70407191DF8F4D400FE01E7 /* Build configuration list for PBXNativeTarget "UICollectionViewCellMove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B704071A1DF8F4D400FE01E7 /* Debug */,
+				B704071B1DF8F4D400FE01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B704071C1DF8F4D400FE01E7 /* Build configuration list for PBXNativeTarget "UICollectionViewCellMoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B704071D1DF8F4D400FE01E7 /* Debug */,
+				B704071E1DF8F4D400FE01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B704071F1DF8F4D400FE01E7 /* Build configuration list for PBXNativeTarget "UICollectionViewCellMoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70407201DF8F4D400FE01E7 /* Debug */,
+				B70407211DF8F4D400FE01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B70406E41DF8F4D400FE01E7 /* Project object */;
+}
